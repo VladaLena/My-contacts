@@ -1,0 +1,208 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+:focus,
+:active {
+   outline: none;
+}
+a:focus,
+a:active {
+   outline: none;
+}
+html,
+body {
+  height: 100%;
+  min-width: 1920px;
+}
+body {
+  color: #fff;
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+input,
+button,
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: inherit;
+}
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+}
+a {
+  color: inherit;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+/* --------------------------------------------------------------- */
+
+body {
+  background-color: #222;
+  color: #fff;
+}
+.wrapper {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content {
+  position: relative;
+  margin: 0 auto;
+  max-width: 800px;
+}
+.icon-bg {
+  position: absolute;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 50%;
+  margin: 0;
+  right: 0;
+  width: 700px;
+  height: auto;
+}
+.icon img {
+  background: #222;
+  margin: 0 auto;
+}
+
+.title-subtitle{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+.content__title{
+  font-size: 80px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+}
+.content__subtitle{
+  font-size: 40px;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+.button__container {
+  display: flex;
+  flex-direction: row;
+}
+.text {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 22px;
+}
+.social {
+  width: 30%;
+  padding-left: 10px;
+  padding-top: 7px;
+}
+.buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.button {
+  width: 350px;
+  background-color: #fff;
+}
+.button_gray {
+  background-color: gray;
+  box-shadow:0 0 20px gray;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+}
+.button_blue {
+  background-color: blue;
+  box-shadow:0 0 20px blue;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+}
+.button_purple {
+  background-color: blueviolet;
+  box-shadow:0 0 20px blueviolet;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+}
+.social a {
+  text-align: center;
+  width: 55px;
+  height: 55px;
+  float: left;
+  background: #fff;
+  /* border: 1px solid #ccc; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  margin: 0 10px 10px 0;
+  padding: 6px;
+  color: #fff;
+}
+.github a {
+  background: gray;
+  color: #fff;
+}
+
+.vk a {
+  background: blueviolet;
+  color: #fff;
+}
+
+.telegram a {
+  background: blue;
+  color: #fff;
+}
+
+.github a {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.vk a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.telegram a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
